@@ -6,7 +6,7 @@ utility classes for p5
 
 https://1florki.github.io/p5utils/mandala.js
 
-example:
+example (https://editor.p5js.org/applerisotto/sketches/GWSWHjUWg):
 
 ```javascript
 let m;
