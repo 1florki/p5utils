@@ -19,7 +19,6 @@ class Mandala {
   }
   
   draw(myFunc, x, y, a, b, c, d) {
-    push();
     if(this.translate) translate(width / 2, height / 2);
     for(let i = 0; i < this.rotations; i++) {
       myFunc(x, y, a, b, c, d);
@@ -30,7 +29,6 @@ class Mandala {
       }
       rotate(TWO_PI / this.rotations);
     }
-    pop();
   }
   
   line(x1, y1, x2, y2) {
